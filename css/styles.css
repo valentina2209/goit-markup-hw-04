@@ -56,7 +56,6 @@ img {
     gap: 40px;  
 }
 .site-link{
-    
     color: #2e2f42;
   
 }
@@ -160,12 +159,74 @@ border-bottom: 1px solid#E7E9FC;
     color: #434455;
 }
 
+.title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+.work-list{
+    display: flex;
+    gap:24px;
+    margin-top: 8px;
+}
+.work-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 428px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+}
+.work-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    margin-top: 32px;
+}
+.work-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+    margin-bottom: 8px;
+}
+ .social-list{
+    display: flex;
+    gap:24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+ }
+
+ .social-icon{
+    fill:#000;
+    background-color: aqua;
+ }
 
 
 
-
-
-
+.social-link:hover,
+.social-link:focus{
+    color: red;
+}
 
 
 
