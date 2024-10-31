@@ -126,6 +126,10 @@ border-bottom: 1px solid#E7E9FC;
     margin-bottom: 48px;
 }
 
+
+
+
+
 .basik-list{
     display: flex;
     gap: 24px;
@@ -217,15 +221,12 @@ border-bottom: 1px solid#E7E9FC;
  }
 
  .social-icon{
-    fill:#000;
-    background-color: aqua;
+    fill:#4d5ae5;
  }
 
-
-
-.social-link:hover,
-.social-link:focus{
-    color: red;
+.social-icon:hover,
+.social-icon:focus{
+    fill:#404bbf;
 }
 
 
@@ -286,6 +287,10 @@ border-bottom: 1px solid#E7E9FC;
     margin: 0 auto;
 } 
 
+.button:hover,
+.button:focus{
+    background: #404bbf;
+}
 
 
 
