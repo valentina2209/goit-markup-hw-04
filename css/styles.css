@@ -28,24 +28,24 @@ img {
   height: auto;
 }
 .container{
-    max-width: 1440px;
-    height: 72px;
+    max-width: 1158px;
     margin: 0 auto;
 }
 
-
+ .section{
+    padding: 120px 0;
+ }
 .header-nav{
     display: flex;
-    padding: 24px  24px 24px 156px;
+    padding: 24px  0;
+    align-items: center;
 }
 
 .logo{
     margin-right: 76px;
 }
 
-.site-item{
-    margin-right: 40px;
-}
+
 .site-nav{
     display: flex;
     font-family: "Roboto", sans-serif;
@@ -53,14 +53,24 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+    gap: 40px;  
 }
 .site-link{
+    
     color: #2e2f42;
+  
+}
+
+.site-link:hover, 
+.site-link:focus{
+    border-bottom: 4px solid #404bbf;
+    color: #404bbf;
+    padding-bottom: 20px;
 }
 
 .adres{
     display: flex;
+    gap: 40px;
 }
 
 
@@ -78,11 +88,77 @@ img {
     justify-content: space-between;
    
 }
+.header .container{
+border-bottom: 1px solid#E7E9FC;
+}
 
 
+.adres-link:hover,
+.adres-link:focus{
+    color: #404bbf;
 
+}
 
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #000;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 600px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-image:linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;   
+}
 
+.hero-title{
+    max-width: 496px;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 48px;
+}
+
+.basik-list{
+    display: flex;
+    gap: 24px;
+}
+    
+.basik-item{
+    display: block;
+    width: calc((100% - 72px) / 4);
+}
+
+.basik-icon{
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+}
+.basik-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+.basik-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 
 
@@ -130,6 +206,30 @@ img {
     color: #2e2f42;
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
+.button{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin: 0 auto;
+} 
+
+
+
+
+
+
 .footer{
     width: 1440px;
     height: 312px;
