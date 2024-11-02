@@ -65,6 +65,7 @@ img {
     border-bottom: 4px solid #404bbf;
     color: #404bbf;
     padding-bottom: 20px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adres{
@@ -95,9 +96,15 @@ border-bottom: 1px solid#E7E9FC;
 .adres-link:hover,
 .adres-link:focus{
     color: #404bbf;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
+.site-link--current{
+    color: #404bbf;
+    border-bottom: 4px solid #404bbf;
+    padding-bottom: 20px;
+}
 .hero{
     display: flex;
     flex-direction: column;
@@ -125,10 +132,6 @@ border-bottom: 1px solid#E7E9FC;
     color: #fff;
     margin-bottom: 48px;
 }
-
-
-
-
 
 .basik-list{
     display: flex;
@@ -227,7 +230,118 @@ border-bottom: 1px solid#E7E9FC;
 .social-icon:hover,
 .social-icon:focus{
     fill:#404bbf;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+.portfolio-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+}
+    
+ .portfolio-item{  
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    margin-bottom: 48px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+ }
+
+ .portfolio-list .portfolio-item {
+    width:calc((100% - 40px) / 3);
+ } 
+
+.portfolio-caption{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    margin-top: 32px;
+    padding-left: 16px;
+}
+.portfolio-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin-bottom: 32px;
+    padding-left: 16px;    
+}
+.shadow {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .portfolio-item:hover,
+  .portfolio-item:focus { 
+    background-color: #ffffff; 
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); 
+  } 
+  .portfolio-item:hover .overlay,
+  .portfolio-item:focus .overlay { 
+    transform: translateY(0);  
+  } 
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    background: #4d5ae5;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+.overlay-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    margin-bottom: 164px;
+    margin-top: 40px;
+}
+
+
+
+
+
 
 
 
@@ -295,18 +409,18 @@ border-bottom: 1px solid#E7E9FC;
 
 
 
-
 .footer{
-    width: 1440px;
-    height: 312px;
-    padding-top: 100px;
-    padding-left: 156px;
-    padding-bottom: 100px;
+    max-width: 1440px;
     background: #2e2f42;
-}
+    padding-top: 100px;
+    padding-bottom: 100px;
+ }
+
+ .footer-over{
+    display: flex;
+   
+ }
 .footer-text{
-    display: block;
-    padding-top: 16px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -314,7 +428,8 @@ border-bottom: 1px solid#E7E9FC;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
-.footer-social{
+
+/* .footer-social{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -332,4 +447,4 @@ border-bottom: 1px solid#E7E9FC;
 .footer-svg{
     width: 208px;
     height: 40px;
-}
+}    */
