@@ -210,7 +210,13 @@ border-bottom: 1px solid#E7E9FC;
     letter-spacing: 0.02em;
     color: #434455;
 }
-
+ .team{
+    background-color: #F4F4FD;
+    padding-top: 232px;
+    padding-bottom: 120px;
+    max-width: 1440px;
+    margin: 0 auto;
+ }
 .title{
     font-weight: 700;
     font-size: 36px;
