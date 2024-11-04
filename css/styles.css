@@ -12,6 +12,8 @@ body{
     font-family: "Roboto", "Raleway", sans-serif;
     color: #434455;
     background-color: #fff;
+    font-style: normal;
+    font-weight: 400;
 }
 a {
   text-decoration: none;
@@ -79,7 +81,6 @@ img {
 
 
 .adres-link{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -204,7 +205,6 @@ border-bottom: 1px solid#E7E9FC;
     margin-bottom: 8px;
 }
 .basik-text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -248,7 +248,6 @@ border-bottom: 1px solid#E7E9FC;
     margin-top: 32px;
 }
 .work-text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -314,7 +313,6 @@ border-bottom: 1px solid#E7E9FC;
     padding-left: 16px;
 }
 .portfolio-text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -350,8 +348,6 @@ border-bottom: 1px solid#E7E9FC;
     padding-left: 24px;
     padding-right: 24px;
     align-items: center;
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0.03em;
@@ -362,7 +358,6 @@ border-bottom: 1px solid#E7E9FC;
   }
   
 .overlay-text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
