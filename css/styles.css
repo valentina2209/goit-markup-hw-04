@@ -42,6 +42,15 @@ img {
  .section{
     padding: 120px 0;
  }
+
+/* стилі хедера */
+
+.header-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 1px 6px rgba(46, 47, 66, 0.08);   
+}
 .header-nav{
     display: flex;
     padding: 24px  0;
@@ -63,6 +72,7 @@ img {
 }
 .site-link{
     color: #2e2f42;
+    position: relative;
   
 }
 
@@ -87,12 +97,7 @@ img {
     color: #434455;
     gap: 40px;
 }
-.header-flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-   
-}
+
 .header .container{
 border-bottom: 1px solid#E7E9FC;
 }
@@ -108,6 +113,9 @@ border-bottom: 1px solid#E7E9FC;
     border-bottom: 4px solid #404bbf;
     padding-bottom: 20px;
 }
+
+/* Стилі першої секції */
+
 .hero{
     display: flex;
     flex-direction: column;
@@ -117,9 +125,9 @@ border-bottom: 1px solid#E7E9FC;
     margin: 0 auto;
     height: 600px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    background-image:linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;   
 }
 
@@ -171,18 +179,26 @@ border-bottom: 1px solid#E7E9FC;
     color: #fff;
     margin: 0 auto;
     cursor: pointer;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
-
 .button:hover,
 .button:focus{
     background: #404bbf;
 }
 
+/* Стилі другої секції */
+
 .basik-list{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    /* background-color: #f4f4fd;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px; */
     gap: 24px;
 }
-    
+     
 .basik-item{
     display: block;
     width: calc((100% - 72px) / 4);
@@ -190,11 +206,11 @@ border-bottom: 1px solid#E7E9FC;
 
 .basik-icon{
     margin-bottom: 8px;
-    border: 1px solid #8e8f99;
+    border: 1px solid #8e8f99; 
     border-radius: 4px;
     width: 264px;
     height: 112px;
-    background: #f4f4fd;
+    background: #f4f4fd; 
 }
 .basik-title{
     font-weight: 500;
@@ -209,7 +225,9 @@ border-bottom: 1px solid#E7E9FC;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
+} 
+
+
  .team{
     background-color: #F4F4FD;
     padding-top: 232px;
