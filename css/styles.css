@@ -200,6 +200,9 @@ border-bottom: 1px solid#E7E9FC;
 
 /* Стилі другої секції */
 
+.head{
+    display: none;
+}
 .basik-list{
     display: flex;
     gap: 24px;
