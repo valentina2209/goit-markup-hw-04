@@ -205,7 +205,7 @@ border-bottom: 1px solid#E7E9FC;
     gap: 24px;
     max-width: 1158px;
     margin: 0 auto;
-} 
+}  
     
 .basik-card{
     display: flex; 
@@ -215,8 +215,9 @@ border-bottom: 1px solid#E7E9FC;
     background-color: #f4f4fd; 
     border-radius: 4px; 
     border: 1px solid #8e8f99; 
-    margin-bottom: 8px; 
-} 
+    margin-bottom: 8px;
+}   
+
 
 .basik-icon{
     border-radius: 4px;
@@ -275,6 +276,7 @@ border-bottom: 1px solid#E7E9FC;
 }
 .work-card{
     padding: 32px 0;
+
 }
 .work-title{
     font-weight: 500;
@@ -284,7 +286,6 @@ border-bottom: 1px solid#E7E9FC;
     text-align: center;
     color: #2e2f42;
     margin-bottom: 8px;
-    margin-top: 32px;
 }
 .work-text{
     font-size: 16px;
