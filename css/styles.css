@@ -216,8 +216,6 @@ border-bottom: 1px solid#E7E9FC;
 .basik-list{
     display: flex;
     gap: 24px;
-    max-width: 1158px;
-    margin: 0 auto;
 }  
     
 .basik-card{
