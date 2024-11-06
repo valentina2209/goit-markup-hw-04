@@ -279,9 +279,9 @@ border-bottom: 1px solid#E7E9FC;
     background: #fff;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
-.work-card{
-    padding: 32px 0;
-
+.work-card {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .work-title{
     font-weight: 500;
