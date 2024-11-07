@@ -21,12 +21,9 @@ a {
 }
 
 ul {
-  list-style: none;
-}
-
-ul {
+  list-style-type: none;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
 
 img {
@@ -36,6 +33,7 @@ img {
 }
 .container{
     max-width: 1158px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -58,7 +56,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 156px;
 }
 .site-nav{
     display: flex;
@@ -119,12 +116,20 @@ img {
     display: flex;
     margin-left: auto;
     align-items: center;
-    color: #757575;
     letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 14px;
+    gap: 40px;
   }
-  
+  .address-item{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+   
+  }
 .address-link {
     color: #757575;
     position: relative;
@@ -138,7 +143,6 @@ img {
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Стилі першої секції */
